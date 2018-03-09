@@ -1,2 +1,1 @@
-# PMI
-Exercise solutions
+# Exercise solutions
