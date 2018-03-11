@@ -9,7 +9,7 @@ np.random.seed(seed=0)
 
 iteration_page_rank = 10
 
-path = "../data/"
+path = "../data/pmi_data/"
 
 f_json_dblp = path + 'dblp.json'
 f_sample_dblp = path + 'dblp_sample.json'
