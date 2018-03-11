@@ -1,0 +1,17 @@
+# compiled python files
+*.pyc
+
+# jupyter notebook logging from docker
+nohup.out
+.ipynb_checkpoints
+
+# data files
+data/*.json
+data/*.csv
+data/*.xlsx
+data/*.7z
+data/abstract_model_1520761684
+data/*.zip
+data/word2*
+data/db*
+
