@@ -12,7 +12,7 @@ COPY requirements.txt /tmp/
 RUN conda install --yes --file /tmp/requirements.txt && rm /tmp/requirements.txt
 
 # --- unpacking tool: 7za
-RUN apt-get install -y --no-install-recommends p7zip
+RUN apt-get install -y --no-install-recommends p7zip unzip
 
 # --- append sourcing of Kave env to bashrc
 COPY bashrc_addendum /tmp/
