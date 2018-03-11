@@ -1,4 +1,4 @@
-# --- base image: anaconda3 (python3.6)
+# --- base image: anaconda (python2.7)
 FROM continuumio/anaconda:5.1.0
 
 # --- link sh to bash
