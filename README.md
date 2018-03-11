@@ -1,13 +1,6 @@
-This is the repository for the PMI proposal task Mentor-Mentee Recommendations.
+# Mentor-Mentee Recommender
 
-The `python` subdirectory has a subdirectory `pmi`. We can treat this as a package and install it using:
-
-```bash
-pip install -e /path/to/recommendations/python/pmi
-```
-
-Then the contents of that directory will be available to any notebooks, scripts, etc. that you are writing. 
-
+This is the repository for the proposal task Mentor-Mentee Recommendations.
 
 # Installation
 
@@ -20,7 +13,7 @@ This repository has an associated docker image for out-of-the-box environment co
 
 ## Local environment
 
-To build a local environment, please ensure that you have Anaconda (`conda>=4.4.10`) with Python 2.7 installed. To ensure your `conda` installation can access all requirements, please add the `conda-forge` channel to your `conda` configuration using the command
+Alternatively, to build a local environment, please ensure that you have Anaconda (`conda>=4.4.10`) with Python 2.7 installed. To ensure your `conda` installation can access all requirements, please add the `conda-forge` channel to your `conda` configuration using the command
 
 ```bash
 conda config --append channels conda-forge
