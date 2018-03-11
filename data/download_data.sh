@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Now downloading required datasets for DBLP exercise solution, 10 files in total."
+echo "Now downloading required datasets for DBLP exercise solution."
 echo "This may take several minutes ..."
 
 echo ""
